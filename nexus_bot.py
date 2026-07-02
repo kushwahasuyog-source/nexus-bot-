@@ -50,7 +50,7 @@ logger = logging.getLogger(__name__)
 # CONFIGURATION
 # ─────────────────────────────────────────────────────────────────────────────
 
-TOKEN: str = os.environ["8642164401:AAHVrtRB4CXX0SvmQe1tcwlv4JnyDz5e5s0"]
+TOKEN: str = os.environ["BOT_TOKEN"]
 BOT_NAME  = os.getenv("BOT_NAME", "Nexus Control Center")
 BOT_DESC  = os.getenv("BOT_DESC", "System Monitor & Crypto Tipping Interface")
 
